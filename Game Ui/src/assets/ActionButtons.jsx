@@ -12,7 +12,7 @@ function ActionButtons(){
 return (
   <div style={{  display: 'flex',
   alignItems: 'flex-end',
-   backgroundImage: clicked === '' ? "url('/Title.png')" : "url('/Bg.png')",backgroundSize: 'cover', 
+   backgroundImage: clicked === '' ? "url('${import.meta.env.BASE_URL}/Title.png')" : "url('${import.meta.env.BASE_URL}/Bg.png')",backgroundSize: 'cover', 
   backgroundPosition: 'center',
   width: '100vw',
   height: '100vh',
