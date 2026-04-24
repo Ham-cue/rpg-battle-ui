@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Bflag;
+  src: url('../public/BlackFlag.ttf') format('truetype') ;
+}
+
+body{
+  background-color: hsl(0, 0%, 40%); 
+ 
+}
+
+button {
+  border: solid 1px #8b6f3d;
+  display: flexbox;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  background-color: #3b2a1a;
+  color: hsl(0, 0%, 0%);
+  border-radius: 10px;
+  bottom: 20px;
+  left: 20px;
+  font-family: Bflag;
+   font-size: 30px;
+}
+
+.Back{
+  background-color: #2e2e2e;
+  color: hsl(0, 99%, 50%);
+}
+
+button:hover{
+  background-color: hsl(80, 1%, 43%);;
+}
